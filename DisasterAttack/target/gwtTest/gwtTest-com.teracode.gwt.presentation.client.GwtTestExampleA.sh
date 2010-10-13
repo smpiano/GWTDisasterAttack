@@ -1,0 +1,5 @@
+#!/bin/bash
+
+CP="/home/sergiopiano/.m2/repository/com/google/gwt/gwt-user/1.5.3/gwt-user-1.5.3.jar":"/home/sergiopiano/.m2/repository/com/google/gwt/gwt-dev/1.5.3/gwt-dev-1.5.3-linux.jar":"/home/sergiopiano/repo/GWT/GWTDisasterAttack/DisasterAttack/src/main/java":"/home/sergiopiano/repo/GWT/GWTDisasterAttack/DisasterAttack/src/main/resources":"/home/sergiopiano/repo/GWT/GWTDisasterAttack/DisasterAttack/target/classes":"/home/sergiopiano/.m2/repository/com/google/gwt/gwt-servlet/1.5.3/gwt-servlet-1.5.3.jar":"/home/sergiopiano/.m2/repository/junit/junit/4.1/junit-4.1.jar":"/home/sergiopiano/repo/GWT/GWTDisasterAttack/DisasterAttack/target/test-classes":"/home/sergiopiano/repo/GWT/GWTDisasterAttack/DisasterAttack/src/test/java":"/home/sergiopiano/repo/GWT/GWTDisasterAttack/DisasterAttack/src/test/resources"
+
+"/usr/lib/jvm/java-6-openjdk/jre/bin/java"  -Xmx512m -cp "$CP" -Dcatalina.base="/home/sergiopiano/repo/GWT/GWTDisasterAttack/DisasterAttack/target/tomcat" junit.textui.TestRunner com.teracode.gwt.presentation.client.GwtTestExampleA
